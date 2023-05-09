@@ -2,7 +2,7 @@ package com.designpattern.proxy;
 
 class Car implements Drivable {
 	 
-	private Driver driver;
+	private final Driver driver;
 	
 	public Car(Driver driver) {
 		this.driver=driver;
